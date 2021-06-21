@@ -1,0 +1,38 @@
+h1 {
+    background-color: silver;
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+}
+
+header{
+    background-color: silver ;
+    color: black;
+    height: 100px;
+  
+  }
+
+nav ul li {
+    text-align: center;
+    color: black;
+    background-color: silver;
+    font-weight: bold;
+    font-style: normal;
+   
+}
+
+h2 {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(44, 40, 40);
+    padding-top: initial;
+}
+
+p {
+    font-size: large;
+    font-weight: normal;
+    font-style: italic;
+    font-display: left;
+
+}

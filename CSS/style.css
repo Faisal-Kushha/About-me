@@ -26,7 +26,7 @@ h2 {
     font-weight: bold;
     font-size: x-large;
     color: rgb(44, 40, 40);
-    padding-top: initial;
+    padding-top: 10px;
 }
 
 p {
@@ -34,5 +34,40 @@ p {
     font-weight: normal;
     font-style: italic;
     font-display: left;
+    padding-top: 10px;
+}
 
+#a {
+    list-style-type: square;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+#c {
+    list-style-type: square;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+body {
+    margin-left: 5px;
+    padding-top: 10px;
+}
+#b {
+    list-style-type: circle;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+#d {
+    list-style-type: circle;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+#e {
+    list-style-type: number;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+h3 {
+    padding-top: 10px;
 }

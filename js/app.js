@@ -13,6 +13,7 @@ document.write('Nice to meet you '+theName + '<img src="https://images.onlinelab
 
 confirm("Lets play a guessing game!");
 
+function one(){
 let question1 = prompt('Did I graduate from University of Jordan?');
 
 switch (question1.toLowerCase()){
@@ -30,7 +31,11 @@ switch (question1.toLowerCase()){
             default:
                 alert('You could answer with Yes or No')
 }
+}
 
+one();
+
+function two(){
 let question2 = prompt('Do I hold a Masters degree?');
 
 switch (question2.toLowerCase()){
@@ -48,7 +53,10 @@ switch (question2.toLowerCase()){
             default:
                 alert('You could answer with Yes or No')
 }
+}
+two();
 
+function three(){
 let question3 = prompt('Did I graduate in 2020?');
 
 switch (question3.toLowerCase()){
@@ -66,6 +74,12 @@ switch (question3.toLowerCase()){
             default:
                 alert('You could answer with Yes or No')
 }
+}
+three();
+
+function four(){
+
+
 
 let question4 = prompt('Am I a student at ASAC?');
 
@@ -85,7 +99,10 @@ switch (question4.toLowerCase()){
             default:
                 alert('You could answer with Yes or No')
 }
+}
+four();
 
+function five(){
 
 let question5 = prompt('Did I enroll in a carpentry course at ASAC?');
 
@@ -103,7 +120,11 @@ switch (question5.toLowerCase()){
             break;
             default:
                 alert('You could answer with Yes or No')
-} 
+}
+}
+five();
+
+function six(){
 let question6 = prompt('When did I receive my bachelor\'s degree?')
 question6 = Number(question6);
 for(let i =0;i<3;i++){ 
@@ -125,7 +146,10 @@ else if(question6 < 2011){
    question6 = Number(question6);}
 }
 alert("The correct answer is 2011 :)");
+}
+six();
 
+function seven(){
 
 let question7 = prompt('What are my favorite movies?')
 let movies = ['the godfather','rocky','analyze this','forrest gump','cast away','braveheart','the lord of the rings','the green mile','the good the bad and the ugly','lethal weapon']
@@ -143,7 +167,8 @@ for(let i =0;i<5;i++){
     }
 }
 alert("My favorite Movies are: The Godfather, Rocky, Analyze This, Forrest Gump, Cast Away, Braveheart, The Lord of The Rings, The Green Mile, The Good The Bad and The Ugly, Lethal Weapon.")
-
+}
+seven();
 alert('Good Job ' + theName + ' and your score is ' + score + '/7')
 
 //document.write('Nice to meet you '+theName + '<img src="https://images.onlinelabels.com/images/clip-art/Firkin/Nice%20to%20meet%20you-291563.png" height="200px" width="200px" />')
